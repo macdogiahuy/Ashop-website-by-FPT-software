@@ -1,0 +1,113 @@
+.header {
+  margin-bottom: 15px;
+}
+
+.header-content > :first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding-right: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sub-panel {
+  display: flex;
+  border-top: 1px solid rgb(240 242 245);
+  margin-top: 24px;
+  padding-top: 24px;
+}
+
+.footer > :first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.item {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.item + .item {
+  margin-top: 15px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.product img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.product span {
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  width: 40%;
+}
+
+.message > label {
+  margin-right: 10px;
+}
+
+.logistic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 24px;
+}
+
+.logistic label {
+  margin-right: 10px;
+}
+
+.conclusion {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.conclusion label {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.conclusion span {
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+
+.logistic-item {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: inset 4px 0 0 #ee4d2d;
+  padding: 20px;
+  background-color: #fafafa;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.15s all ease-in;
+}
+
+.logistic-item + .logistic-item {
+  margin-top: 15px;
+}
+
+.logistic-item:hover {
+  box-shadow: inset 6px 0 0 var(--accent-color);
+}
+
+.highlight {
+  color: var(--accent-color);
+}

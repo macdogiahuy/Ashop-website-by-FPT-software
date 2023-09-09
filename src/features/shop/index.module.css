@@ -1,0 +1,24 @@
+.breadcrumb {
+  margin: 24px 0;
+}
+
+.tabs :global(.ant-tabs-nav-wrap) {
+  background: white;
+}
+
+.tabs :global(.ant-tabs-tab) {
+  min-width: 100px;
+  justify-content: center;
+}
+
+.panel {
+  background: white;
+  padding: 24px;
+}
+
+.create-shop-title {
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-bottom: 24px;
+  display: block;
+}

@@ -1,0 +1,48 @@
+.shop {
+  margin-top: 24px;
+  padding: 24px;
+  background: white;
+  display: flex;
+  gap: 48px;
+}
+
+.brief {
+  display: flex;
+  gap: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding-right: 48px;
+}
+
+.logo {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 78px;
+  height: 78px;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+}
+
+.item > :first-child {
+  margin-bottom: 15px;
+}
+
+.item + .item {
+  margin-left: 48px;
+}
+
+.item label {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}

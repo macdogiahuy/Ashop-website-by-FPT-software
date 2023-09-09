@@ -1,0 +1,25 @@
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.price {
+  color: #ee4d2d;
+  font-size: 16px;
+}
+
+.sold {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.product-meta :global(.ant-card-meta-title) {
+  white-space: normal;
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

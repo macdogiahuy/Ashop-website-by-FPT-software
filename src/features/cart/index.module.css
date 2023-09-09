@@ -1,0 +1,42 @@
+.breadcrumb {
+  margin: 24px 0;
+}
+
+.container {
+  padding: 24px;
+  background: white;
+}
+
+.table-container {
+  margin-bottom: 24px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-payment label {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.total-payment span {
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.right-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.right-actions button {
+  min-width: 120px;
+}
+
+.affixing {
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+}

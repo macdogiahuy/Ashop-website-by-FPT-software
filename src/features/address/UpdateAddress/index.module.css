@@ -1,0 +1,13 @@
+.form-item--horizontal :global(.ant-row.ant-form-item-row) {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-item--horizontal :global(.ant-col.ant-form-item-label) {
+  padding-bottom: 0;
+}
+
+.form-item--horizontal :global(.ant-col.ant-form-item-control) {
+  width: unset;
+}

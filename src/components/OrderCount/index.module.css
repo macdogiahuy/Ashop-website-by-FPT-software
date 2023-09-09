@@ -1,0 +1,12 @@
+.order-count {
+  width: 130px;
+}
+
+.order-count :global(input) {
+  text-align: center;
+}
+
+.action {
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,7 @@
+.content {
+  max-width: var(--viewport-max-width);
+  width: var(--viewport-max-width);
+  min-height: calc(100vh - 64px);
+  padding-bottom: 64px;
+  align-self: center;
+}
