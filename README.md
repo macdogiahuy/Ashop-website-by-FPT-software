@@ -18,6 +18,7 @@ If you are using yarn, you can run this command to install all the dependencies.
 
 ### `yarn start`
 You can run this command to start the app.
+After using Yarn, the next time you can run `npm start` to run.
 
 ### `npm test`
 
