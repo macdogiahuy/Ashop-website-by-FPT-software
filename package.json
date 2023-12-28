@@ -1,7 +1,7 @@
 {
   "name": "ashop",
   "version": "0.1.0",
-  "homepage": "https://macdogiahuy.github.io/Ashop-website-by-FPT-software/",
+  "homepage": "https://macdogiahuy.github.io/Ashop-website-by-FPT-software",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
