@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ashop-website-by-FPT-software/static/css/main.418ddb6d.css",
+    "main.js": "/Ashop-website-by-FPT-software/static/js/main.f3cea6f3.js",
+    "static/js/787.f9820004.chunk.js": "/Ashop-website-by-FPT-software/static/js/787.f9820004.chunk.js",
+    "index.html": "/Ashop-website-by-FPT-software/index.html",
+    "main.418ddb6d.css.map": "/Ashop-website-by-FPT-software/static/css/main.418ddb6d.css.map",
+    "main.f3cea6f3.js.map": "/Ashop-website-by-FPT-software/static/js/main.f3cea6f3.js.map",
+    "787.f9820004.chunk.js.map": "/Ashop-website-by-FPT-software/static/js/787.f9820004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.418ddb6d.css",
+    "static/js/main.f3cea6f3.js"
+  ]
+}
