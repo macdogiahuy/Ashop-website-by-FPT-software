@@ -1,7 +1,7 @@
 {
   "name": "ashop",
   "version": "0.1.0",
-  "homepage": "https://ditmetintran.com",
+  "homepage": "https://macdogiahuy.github.io/Ashop-website-by-FPT-software",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -51,7 +51,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
