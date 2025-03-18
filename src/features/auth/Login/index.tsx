@@ -3,8 +3,8 @@ import { useCallback, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useLogin } from "../hooks/useLogin";
 
-import styles from "./index.module.css";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
+import styles from "./index.module.css";
 
 import shop from "../../../images/shop.png";
 
