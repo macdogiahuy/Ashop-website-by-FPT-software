@@ -1,0 +1,23 @@
+.container {
+  padding: 24px;
+  height: 240px;
+  background: white;
+  position: relative;
+}
+
+.logo-wrapper {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

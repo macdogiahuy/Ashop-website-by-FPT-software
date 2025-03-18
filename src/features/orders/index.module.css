@@ -1,0 +1,12 @@
+.breadcrumb {
+  margin: 24px 0;
+}
+
+.tabs :global(.ant-tabs-nav-wrap) {
+  background: white;
+}
+
+.tabs :global(.ant-tabs-tab) {
+  min-width: 100px;
+  justify-content: center;
+}

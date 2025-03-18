@@ -1,0 +1,28 @@
+.detail {
+  margin-top: 24px;
+  padding: 24px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto 1fr;
+  margin-left: 14px;
+}
+
+.grid label {
+  margin-right: 48px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.02);
+  font-size: 1.125rem;
+  padding: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,85 @@
+.breadcrumb {
+  margin: 24px 0;
+}
+
+.container {
+  padding: 24px;
+  background: white;
+  margin-bottom: 24px;
+}
+
+.address-bar {
+  height: 3px;
+  width: 100%;
+  background-position-x: -30px;
+  background-size: 116px 3px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--ant-primary-color),
+    var(--ant-primary-color) 33px,
+    transparent 0,
+    transparent 41px,
+    var(--accent-color) 0,
+    var(--accent-color) 74px,
+    transparent 0,
+    transparent 82px
+  );
+}
+
+.products-header {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.products-header > :last-child {
+  text-align: right;
+}
+
+.products-header > :first-child {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.payment-item + .payment-item {
+  margin-top: 24px;
+}
+
+.conclusion {
+  display: flex;
+  flex-direction: column;
+}
+
+.conclusion-content {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column-gap: 24px;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.conclusion-content > span {
+  text-align: right;
+}
+
+.conclusion-content > * {
+  height: 50px;
+  line-height: 50px;
+}
+
+.total {
+  color: var(--accent-color);
+  font-size: 2rem;
+}
+
+.sub-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(240 242 245);
+  margin-top: 24px;
+  padding-top: 24px;
+}

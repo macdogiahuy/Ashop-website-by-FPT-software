@@ -1,0 +1,75 @@
+.breadcrumb {
+  margin: 24px 0;
+}
+
+.loading :global(.ant-skeleton-image) {
+  height: 450px;
+  width: 450px;
+}
+
+.loading :global(.ant-skeleton-button) {
+  width: 120px !important;
+}
+
+.gallery {
+  width: 450px;
+}
+
+.gallery :global(.image-gallery-image) {
+  width: 450px;
+}
+
+.briefing {
+  display: flex;
+  gap: 40px;
+  background: white;
+}
+
+.brief-info {
+  margin: 24px 24px 24px 0;
+  width: 100%;
+}
+
+.product-name {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.more-info > :not(:first-child) {
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+  padding-left: 15px;
+}
+
+.more-info > * {
+  padding-right: 15px;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.price {
+  margin: 24px 0;
+  font-size: 2rem;
+}
+
+.order-count {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions {
+  margin-top: 24px;
+}
+
+.actions > * + * {
+  margin-left: 10px;
+}
+
+.sold-out {
+  margin-top: 24px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+.checkout {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: white;
+  border-radius: 50%;
+  padding: 16px;
+  display: flex;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  color: var(--ant-primary-color);
+}
